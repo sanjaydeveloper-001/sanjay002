@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    background: url('../potfloio/bg.jpg') no-repeat center center / cover;
+    width: 100%;
+    background-position-y: top;
+    display: block;
+    position: relative;
+    z-index: 1; 
+    color: white;
+    text-decoration: none;
+
+}
+.hedder{
+    align-items:center;
+    background: transparent;
+    bottom: 0px;
+}
+.hedder h1{
+    padding: 50px 5%;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.hedder h2{
+    padding: 0px 5%;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(30, 114, 124);
+}
+.hedder h2:hover {
+    color: rgb(45, 73, 83);
+}
+
+.hedder h4{
+    padding: 0px 5%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 170);
+}
+.hedder img{
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    border: 10px solid white;
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    transition: 0.3s;
+}
+.hedder img:hover{
+    border: 10px solid rgb(252, 158, 158);
+    position: relative;
+    transition: 0.3s;
+}
+.projects{
+    padding: 10PX 5%;
+    margin-top: 20px;
+    display: flex;  
+}
+.projects nav img{
+    width: 400px;
+}
+body h1{
+    padding: 0 5%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 159, 1);
+}
+body h3{
+    padding: 0 5%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 159, 1);
+}
+.pr1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: rgb(167, 220, 9);
+}
+.pr2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: rgb(167, 220, 9);
+}
+li,
+a{
+     font-weight: 500;
+     font-size: 20px;
+     text-decoration: none;
+     color: rgb(12, 120, 130);
+     font-family:sans-serif;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav li a{
+    transition: all 0.3s ease 0s;
+}
+nav li a:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    background-color: rgb(43, 102, 128);
+    border: none;
+    padding: 0 41px;
+    border-radius: 15PX;
+}
+.education{
+    padding: 10PX 5%;
+    margin-top: 10px;
+}
+.education h2{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: rgb(45, 8, 207);
+}
+
+.contact{
+ 
+        padding: 10PX 5%;
+        margin-top: 20px;
+        bottom: 20px;
+        display: flex;
+        text-decoration: none;
+}
+.education p{
+    margin-left: 5rem;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
